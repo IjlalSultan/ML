@@ -45,5 +45,6 @@ function gotResults(error,results){
   else{
     label = results[0].label;
     classifyImage();
+    console.log(label);
   }
 }
